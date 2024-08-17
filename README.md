@@ -1,4 +1,4 @@
-# Proyecto Flex
+# Programas LEX
 
 Este repositorio contiene dos programas desarrollados en Flex:
 
