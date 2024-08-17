@@ -1,4 +1,0 @@
-Esta es una prueba.
-Este archivo tiene tres líneas,
-varias palabras, y algunos caracteres especiales.
-
