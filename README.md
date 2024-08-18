@@ -14,6 +14,7 @@ Este repositorio contiene dos programas desarrollados en Flex:
 
 4. **Reconocimiento de Tokens** (ubicado en la carpeta `punto4`)
 
+5. **Clasificación de números complejos** (ubicado en la carpeta `punto5`)
   
 
 A continuación, se describe el proceso completo para descargar, compilar y ejecutar ambos programas.
