@@ -151,7 +151,7 @@ Bash
 
 ## **Calculadora Simple**
 
-## Ubicación del Código
+### Ubicación del Código
 
 -   La carpeta de la calculadora es `punto3`.
     
