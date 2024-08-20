@@ -232,3 +232,44 @@ Bash
 ./calculadora < pruebas.txt
 ```
 -   Deberías ver la salida con los tokens reconocidos y clasificados, incluyendo números negativos, funciones matemáticas, constantes y operadores
+
+
+## **Clasificación de números complejos**
+
+### Ubicación del Código
+
+-   La carpeta del programa de reconocimiento de tokens es `punto5`.
+
+### Paso a Paso para Ejecutar
+
+1.  **Acceder a la Carpeta Clasificación de números complejos**
+   
+Bash
+```
+cd ../punto5
+```
+
+2. **Compilar el Archivo Flex**
+
+Bash
+
+```
+flex complex.l
+gcc lex.yy.c -o complex -lfl -lm
+```
+
+3.  **Ejecutar el Programa**
+    
+
+-   Puedes ingresar expresiones matemáticas directamente.
+    
+-   El archivo de prueba es `pruebas.txt`.
+    
+-   Ejecuta el programa con el archivo de prueba:    
+
+Bash
+
+```
+./complex < pruebas.txt
+```
+-   Deberías ver la salida que clasifica los números complejos en diferentes categorías según su forma.
