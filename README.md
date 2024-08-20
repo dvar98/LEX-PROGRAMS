@@ -254,8 +254,8 @@ cd ../punto5
 Bash
 
 ```
-flex complex.l
-gcc lex.yy.c -o complex -lfl -lm
+flex numeroscomplejos.l
+gcc lex.yy.c -o numeroscomplejos -lfl -lm
 ```
 
 3.  **Ejecutar el Programa**
@@ -263,13 +263,13 @@ gcc lex.yy.c -o complex -lfl -lm
 
 -   Puedes ingresar expresiones matemáticas directamente.
     
--   El archivo de prueba es `pruebas.txt`.
+-   El archivo de prueba es `entrada.txt`.
     
 -   Ejecuta el programa con el archivo de prueba:    
 
 Bash
 
 ```
-./complex < pruebas.txt
+./numeroscomplejos < entrada.txt
 ```
 -   Deberías ver la salida que clasifica los números complejos en diferentes categorías según su forma.
