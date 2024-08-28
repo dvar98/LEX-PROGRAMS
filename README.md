@@ -271,5 +271,12 @@ Bash
 
 ```
 ./numeroscomplejos < entrada.txt
+
+
+## Equipo
+
+- **Daniel Santiago Varela Guerrero**
+- **Miguel Angel Velasco**
+- **Sebastian Sabogal Castillo**
 ```
 -   Deberías ver la salida que clasifica los números complejos en diferentes categorías según su forma.
